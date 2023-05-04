@@ -8,4 +8,5 @@ App del calculo del sueldo de la empresa horizonte
 | Bello Cuyubamba Bryan Jose| Dueño del proyecto |
 | Cuellar Pampas Junior Jhosep| Scrum Master |
 | Dominguez Huamán Rubén Anthony | Desarrollador |
+| Poma Riveros Nicolas Antony | Desarrollador |
 | Soto Egoavil Segio Aldair | Desarrollador |
