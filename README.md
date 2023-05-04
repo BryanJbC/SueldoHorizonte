@@ -9,4 +9,4 @@ App del calculo del sueldo de la empresa horizonte
 | Cuellar Pampas Junior Jhosep| Scrum Master |
 | Dominguez Huamán Rubén Anthony | Desarrollador |
 | Poma Riveros Nicolas Antony | Desarrollador |
-| Soto Egoavil Segio Aldair | Desarrollador |
+| Soto Egoavil Sergio Aldair | Desarrollador |
