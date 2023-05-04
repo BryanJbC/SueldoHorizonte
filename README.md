@@ -9,8 +9,3 @@ App del calculo del sueldo de la empresa horizonte
 | Cuellar Pampas Junior Jhosep| Scrum Master |
 | Dominguez Huamán Rubén Anthony | Desarrollador |
 | Soto  Segio Aldair | Dueño del proyecto |
-| Soto  Segio Aldair | Dueño del proyecto |
-| Soto  Segio Aldair | Dueño del proyecto |
-| Soto  Segio Aldair | Dueño del proyecto |
-| Soto  Segio Aldair | Dueño del proyecto |
-| Soto  Segio Aldair | Dueño del proyecto |
