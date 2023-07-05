@@ -59,5 +59,4 @@ class TestCalcularBonificaciones(unittest.TestCase):
         self.assertEqual(bonificaciones_trabajador3, 30)
         self.assertEqual(bonificaciones_trabajador4, 1000)
 
-if __name__ == '__main__':
-    unittest.main()
+

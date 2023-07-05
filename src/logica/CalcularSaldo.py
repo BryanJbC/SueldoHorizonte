@@ -33,7 +33,7 @@ def calcular_saldos_finales():
 
         descuentos = descuentoFaltas + descuentoTardanzas
 
-        sueldo_final = remuneracionComputable - descuentos
+        sueldo_final = round(remuneracionComputable - descuentos, 2)
 
         saldo_final = {
             'id': trabajador.id,

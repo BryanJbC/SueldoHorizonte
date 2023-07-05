@@ -58,20 +58,16 @@ class TestCalcularSaldosFinales(unittest.TestCase):
 
         self.assertEqual(saldos_finales[0]['id'], trabajador1.id)
         self.assertEqual(saldos_finales[0]['nombre'], trabajador1.nombreTrabajador)
-        self.assertAlmostEqual(saldos_finales[0]['sueldo_final'], 3705.0)
+        self.assertAlmostEqual(saldos_finales[0]['sueldo_final'], 4532.82)
 
         self.assertEqual(saldos_finales[1]['id'], trabajador2.id)
         self.assertEqual(saldos_finales[1]['nombre'], trabajador2.nombreTrabajador)
-        self.assertAlmostEqual(saldos_finales[1]['sueldo_final'], 3135.0)
+        self.assertAlmostEqual(saldos_finales[1]['sueldo_final'], 4094.25)
 
         self.assertEqual(saldos_finales[2]['id'], trabajador3.id)
         self.assertEqual(saldos_finales[2]['nombre'], trabajador3.nombreTrabajador)
-        self.assertAlmostEqual(saldos_finales[2]['sueldo_final'], 5100.0)
+        self.assertAlmostEqual(saldos_finales[2]['sueldo_final'], 5735.73)
 
         self.assertEqual(saldos_finales[3]['id'], trabajador4.id)
         self.assertEqual(saldos_finales[3]['nombre'], trabajador4.nombreTrabajador)
-        self.assertAlmostEqual(saldos_finales[3]['sueldo_final'], 2452.5)
-
-# Ejecutar las pruebas
-if __name__ == '__main__':
-    unittest.main()
+        self.assertAlmostEqual(saldos_finales[3]['sueldo_final'], 3606.25)

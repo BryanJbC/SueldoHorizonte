@@ -11,9 +11,9 @@ def calcular_descuentos(session, trabajador):
     for descuento in trabajador.descuento:
         remuneracionComputable = trabajador.sueldoBasico + calcular_bonificaciones(trabajador)
 
-        descuentoFaltas += (remuneracionComputable / 30) * int(descuento.diasFalta)
-        descuentoTardanzas += (remuneracionComputable / 30 / 8 / 60) * descuento.minutosTardanza
+        descuentoFaltas += round((remuneracionComputable / 30) * int(descuento.diasFalta), 2)
+        descuentoTardanzas += round((remuneracionComputable / 30 / 8 / 60) * descuento.minutosTardanza, 2)
 
-    descuentos = descuentoFaltas + descuentoTardanzas
+    descuentos = round(descuentoFaltas + descuentoTardanzas, 2)
 
     return descuentos
